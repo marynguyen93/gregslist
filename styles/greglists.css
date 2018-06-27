@@ -1,10 +1,15 @@
+body { margin: 0; 
+
+}
+
+h1{
+	padding-left: 20px;
+
+}
+
 nav {
-	height: 50px;
 	background-color: lightgrey;
  	width: 100%;
- 	padding: 10px;
- 	padding-top: 0px;
-
 
 }
 
@@ -25,18 +30,29 @@ nav li{
 	display: inline-block;
 }
 
-.search-field{
-	padding-left: 120px;
-	text-align: left;
 
+main{
+	padding-left: 20px;
+	margin: 0;
+
+	
 }
 
+
+.search-field{
+	padding-top: 3px;
+	padding-left: 1px;
+	text-align: left;
+	border-radius: 1px;
+	width: 50%;
+	padding: 6px;
+}
 
 .search-button {
 	display: inline-block;
 	border: 1px solid #DDDDDD;
 	border-radius: 3px;
-	width: 18px;
+	width: 28px;
 	vertical-align: bottom;
 
 }
@@ -51,16 +67,18 @@ form{
 
 div{ 
 	display: inline-block; 
-	padding-left: 10px;
+	padding: 5px;
 	padding-top: 10px;
 	border: 1px solid #DDDDDD;
-	text-indent: 30px;
-
+	position: relative;
+	left: 62px;
 
 }
 
 .listings {
 	padding-top: 30px;
+	position:relative;
+ 	left:25px;
 }
 
 .listing {
@@ -75,8 +93,9 @@ div{
 
 .listing-title {
   font-weight: 700;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-right: 8px;
+
 }
 
 a:link {
