@@ -1,0 +1,85 @@
+nav {
+	height: 50px;
+	background-color: lightgrey;
+ 	width: 100%;
+ 	padding: 10px;
+ 	padding-top: 0px;
+
+
+}
+
+.glogo{ 
+		display: inline-block;
+
+ }
+nav ul{
+	display: inline-block;
+	list-style: none;
+	font-size: 140%;
+	position: absolute;
+	right: 10px;
+	word-spacing: 20px;
+}
+
+nav li{
+	display: inline-block;
+}
+
+.search-field{
+	padding-left: 120px;
+	text-align: left;
+
+}
+
+
+.search-button {
+	display: inline-block;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	width: 18px;
+	vertical-align: bottom;
+
+}
+
+form{ 
+	padding-top: 30px;
+	padding-left: 60px;
+	padding-bottom: 60px;
+ }
+
+
+
+div{ 
+	display: inline-block; 
+	padding-left: 10px;
+	padding-top: 10px;
+	border: 1px solid #DDDDDD;
+	text-indent: 30px;
+
+
+}
+
+.listings {
+	padding-top: 30px;
+}
+
+.listing {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.listing-date,
+.listing-location {
+  color: #999;
+}
+
+.listing-title {
+  font-weight: 700;
+  margin-left: 10px;
+  margin-right: 8px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
